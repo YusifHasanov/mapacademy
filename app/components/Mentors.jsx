@@ -1,17 +1,20 @@
 "use client";
 import Image from "next/image";
-import {cn} from "@/app/lib/utils";
+import { cn } from "../lib/utils";
+
 
 const Mentors = () => (
-    <section className="py-16  px-16 bg-gray-50">
+    <section className="py-16  px-14 bg-gray-50">
         <div className={"flex items-center justify-between"}>
-            <h2 className="text-center text-4xl font-bold text-black mb-12">Experienced Course Mentor</h2>
+            <h2 className="text-left text-5xl font-bold text-black mb-12">Experienced 
+                <br/>
+                Course Mentor</h2>
             <button
                 className="bg-purple-400 text-white px-5 py-2 rounded-xl shadow-md hover:bg-purple-500 transition">
                 Learn More
             </button>
         </div>
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="flex flex-wrap justify-around">
             <div className="max-w-xs w-full  group/card">
                 <div
                     className={cn(
