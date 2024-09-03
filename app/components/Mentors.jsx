@@ -5,10 +5,10 @@ import { cn } from "../lib/utils";
 
 const Mentors = () => (
     <section className="py-16   md:px-12 lg:px-20 bg-gray-50">
-        <div className={"flex flex-row xs:flex-col xs:mb-0 mb-5  justify-center items-center justify-between"}>
-            <h2 className="text-center xs:text-left text-5xl font-bold text-black mb-6 xs:mb-12">Experienced 
+        <div className={"flex flex-row xs:flex-col xs:mb-0 mb-5  xs:justify-center items-center justify-between"}>
+            <h2 className="text-left xs:text-left text-5xl font-bold text-black mb-6 xs:mb-12">Tecrubeli 
                 <br/>
-                Course Mentor</h2>
+               Mentorlarimiz</h2>
             {/* <button
                 className="bg-purple-400 text-white px-5 py-2 rounded-xl shadow-md hover:bg-purple-500 transition">
                 Learn More
@@ -26,7 +26,7 @@ const Mentors = () => (
                 <div
                     className={cn(
                         "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
-                        "rounded-2xl bg-[url(https://images.unsplash.com/photo-1573497490790-9053816a01d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGVtcGxveWVlfGVufDB8fDB8fHww)] bg-cover"
+                        "rounded-2xl bg-[url(/mentors/ali.JPG)] bg-cover"
                     )}
                 >
                     <div
@@ -35,11 +35,10 @@ const Mentors = () => (
                     </div>
                     <div className="text content">
                         <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                            Author Card
+                            Ali Karimov
                         </h1>
                         <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-                            Card with Author avatar, complete name and time to read - most
-                            suitable for blogs.
+                            Front-end developer
                         </p>
                     </div>
                 </div>
@@ -48,7 +47,7 @@ const Mentors = () => (
                 <div
                     className={cn(
                         "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
-                        "rounded-2xl  bg-[url(https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGVtcGxveWVlfGVufDB8fDB8fHww)] bg-cover"
+                        "rounded-2xl  bg-[url(/mentors/yusif.JPG)] bg-cover"
                     )}
                 >
                     <div
@@ -57,11 +56,10 @@ const Mentors = () => (
                     </div>
                     <div className="text content">
                         <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                            Author Card
+                            Yusif Hasanov
                         </h1>
                         <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-                            Card with Author avatar, complete name and time to read - most
-                            suitable for blogs.
+                           Full stack developer
                         </p>
                     </div>
                 </div>
@@ -70,7 +68,7 @@ const Mentors = () => (
                 <div
                     className={cn(
                         "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
-                        "rounded-2xl bg-[url(https://images.unsplash.com/photo-1558222218-b7b54eede3f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGVtcGxveWVlfGVufDB8fDB8fHww)] bg-cover"
+                        "rounded-2xl bg-[url(/mentors/senan.JPG)] bg-cover"
                     )}
                 >
                     <div
@@ -79,11 +77,10 @@ const Mentors = () => (
                     </div>
                     <div className="text content">
                         <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                            Author Card
+                            Senan Qurbanov
                         </h1>
                         <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-                            Card with Author avatar, complete name and time to read - most
-                            suitable for blogs.
+                            Back-end deeveloper
                         </p>
                     </div>
                 </div>
