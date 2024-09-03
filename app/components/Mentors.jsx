@@ -4,18 +4,25 @@ import { cn } from "../lib/utils";
 
 
 const Mentors = () => (
-    <section className="py-16  px-14 bg-gray-50">
-        <div className={"flex items-center justify-between"}>
-            <h2 className="text-left text-5xl font-bold text-black mb-12">Experienced 
+    <section className="py-16   md:px-12 lg:px-20 bg-gray-50">
+        <div className={"flex flex-row xs:flex-col xs:mb-0 mb-5  justify-center items-center justify-between"}>
+            <h2 className="text-center xs:text-left text-5xl font-bold text-black mb-6 xs:mb-12">Experienced 
                 <br/>
                 Course Mentor</h2>
-            <button
+            {/* <button
                 className="bg-purple-400 text-white px-5 py-2 rounded-xl shadow-md hover:bg-purple-500 transition">
                 Learn More
-            </button>
+            </button> */}
+      <button
+          className="px-6 py-3 xs:px-4 xs:py-2 bg-[#A38FFD] text-white font-medium rounded-md shadow-md hover:bg-[#8F79E3] focus:outline-none"
+          style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}
+        >
+          Learn More
+        </button>
+
         </div>
-        <div className="flex flex-wrap justify-around">
-            <div className="max-w-xs w-full  group/card">
+        <div className="flex flex-wrap justify-center md:justify-between">
+            <div className="max-w-xs w-full xs:mb-0 mb-8  group/card">
                 <div
                     className={cn(
                         "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
@@ -37,7 +44,7 @@ const Mentors = () => (
                     </div>
                 </div>
             </div>
-            <div className="max-w-xs w-full group/card">
+            <div className="max-w-xs w-full xs:mb-0 mb-8  group/card">
                 <div
                     className={cn(
                         "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
@@ -59,7 +66,7 @@ const Mentors = () => (
                     </div>
                 </div>
             </div>
-            <div className="max-w-xs w-full group/card">
+            <div className="max-w-xs w-full xs:mb-0 mb-8 group/card">
                 <div
                     className={cn(
                         "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
@@ -81,7 +88,7 @@ const Mentors = () => (
                     </div>
                 </div>
             </div>
-            <div className="max-w-xs w-full group/card">
+            <div className="max-w-xs w-full xs:mb-0 mb-8 group/card">
                 <div
                     className={cn(
                         "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",

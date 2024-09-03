@@ -6,8 +6,8 @@ const WhyChooseUs = () => {
         <div className="container mx-auto">
 
           {/* Features Grid */}
-          <div className="grid grid-cols-3 px-36  md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className=" bg-white rounded-2xl col-span-2 p-6  shadow-md text-centerbg-purple-50 flex flex-col md:flex-row items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-36  md:grid-cols-2 gap-8">
+              <div className=" bg-white rounded-2xl md:col-span-2 p-6  shadow-md text-centerbg-purple-50 flex flex-col md:flex-row items-center">
                 {/* Text Section */}
                 <div className="md:w-1/2 mb-6 md:mb-0">
                   <h2 className="text-3xl text-black font-bold mb-4">Why You Choose Our Program</h2>
@@ -16,9 +16,11 @@ const WhyChooseUs = () => {
                     ability.
                   </p>
                   <button
-                      className="bg-purple-400 text-white px-6 py-3 rounded-xl shadow-md hover:bg-purple-700 transition">
+          className="px-6 py-3 bg-[#A38FFD] transition text-white font-medium rounded-md shadow-md hover:bg-[#8F79E3] focus:outline-none"
+          style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}
+        >
                     Learn More
-                  </button>
+                    </button>
                 </div>
 
                 {/* Image Section */}
