@@ -10,10 +10,12 @@ const WhyChooseUs = () => {
               <div className=" bg-white rounded-2xl md:col-span-2 p-6  shadow-md text-centerbg-purple-50 flex flex-col md:flex-row items-center">
                 {/* Text Section */}
                 <div className="md:w-1/2 mb-6 md:mb-0">
-                  <h2 className="text-3xl text-black font-bold mb-4">Why You Choose Our Program</h2>
+                  <h2 className="text-3xl text-black font-bold mb-4">Niye bizim kursu seçməlisiniz?</h2>
                   <p className="text-gray-600 mb-6">
-                    I was designed to assist users with a wide range of tasks and answer questions to the best of my
-                    ability.
+                          Bizim kurslar praktik və müasir tədris metodları ilə təmin olunur.
+        Təcrübəli və peşəkar təlimçilərdən bilik və bacarıqlar əldə edəcəksiniz.
+        Real layihələr üzərində işləyərək, iş təcrübəsi qazanma imkanı əldə edirsiniz.
+        Kursumuzda şəxsi inkişafınıza və karyera məqsədlərinizə uyğun xüsusi dəstək göstərilir.
                   </p>
                   <button
           className="px-6 py-3 bg-[#A38FFD] transition text-white font-medium rounded-md shadow-md hover:bg-[#8F79E3] focus:outline-none"
@@ -43,10 +45,11 @@ const WhyChooseUs = () => {
                   {/*</svg>*/}
                 </div>
               </div>
-              <h3 className="text-lg font-bold mb-2">Flexible Time</h3>
+              <h3 className="text-lg font-bold mb-2">Backend təlimlərimiz</h3>
               <p className="text-gray-600">
-                Flexible time, also known as flextime or flexi-time, refers to a work schedule that allows employees to
-                have some control over their starting and ending times.
+                  Backend təlimlərimizə Java, Spring Boot, Python, Django və SQL kimi texnologiyalar daxildir.
+                  Mikroservis arxitekturası, API dizaynı və təhlükəsizlik üzrə dərin biliklər əldə edəcəksiniz.
+                  Kursumuzda backend proqramlaşdırma dilləri və alətlərinin praktik tətbiqi ilə təcrübə qazanacaqsınız.
               </p>
             </div>
 
@@ -60,10 +63,11 @@ const WhyChooseUs = () => {
                   </svg>
                 </div>
               </div>
-              <h3 className="text-lg font-bold mb-2">Flexible Time</h3>
+              <h3 className="text-lg font-bold mb-2">FrontEnd təlimlərimiz</h3>
               <p className="text-gray-600">
-                Flexible time, also known as flextime or flexi-time, refers to a work schedule that allows employees to
-                have some control over their starting and ending times.
+               Frontend təlimlərimiz HTML, CSS, JavaScript, React, və Angular kimi texnologiyaları əhatə edir.
+Rəqəmsal dizayn və istifadəçi təcrübəsi (UX/UI) üzrə nəzəri və praktiki biliklər əldə edəcəksiniz.
+Dinamik və adaptiv veb saytların yaradılması üzrə bacarıqlarınızı inkişaf etdirəcəksiniz.
               </p>
             </div>
 

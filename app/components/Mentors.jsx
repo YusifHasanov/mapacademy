@@ -8,7 +8,7 @@ const Mentors = () => (
         <div className={"flex flex-row xs:flex-col xs:mb-0 mb-5  xs:justify-center items-center justify-between"}>
             <h2 className="text-left xs:text-left text-5xl font-bold text-black mb-6 xs:mb-12">Tecrubeli 
                 <br/>
-               Mentorlarimiz</h2>
+               Telimcilerimiz </h2>
             {/* <button
                 className="bg-purple-400 text-white px-5 py-2 rounded-xl shadow-md hover:bg-purple-500 transition">
                 Learn More
