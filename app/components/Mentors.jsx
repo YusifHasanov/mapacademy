@@ -32,120 +32,101 @@ const mentorsData = [
       "This card provides information about the author and is used as a sample layout for blogs or similar content.",
   },
 ];
-
 const Mentors = () => {
-  const [selectedMentor, setSelectedMentor] = useState(null);
-
-  const openModal = (mentor) => {
-    setSelectedMentor(mentor);
-  };
-
-  const closeModal = () => {
-    setSelectedMentor(null);
-  };
-
-  return (
-    <section className="py-16 md:px-12 lg:px-20 bg-gray-50">
-      <div
-        className={
-          "flex flex-row xs:flex-col xs:mb-0 mb-5 xs:justify-center items-center justify-between"
-        }
-      >
-        <h2 className="text-left xs:text-left text-5xl font-bold text-black mb-6 xs:mb-12">
-          Təcrübəli
-          <br />
-          Təlimçilərimiz
-        </h2>
-        <button
-          className="px-6 py-3 xs:px-4 xs:py-2 bg-[#A38FFD] text-white font-medium rounded-md shadow-md hover:bg-[#8F79E3] focus:outline-none"
-          style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}
-        >
-          Learn More
-        </button>
-      </div>
-      <div className="flex flex-wrap justify-center md:justify-between">
-        {mentorsData.map((mentor, index) => (
+    const [selectedMentor, setSelectedMentor] = useState(null);
+  
+    const openModal = (mentor) => {
+      setSelectedMentor(mentor);
+    };
+  
+    const closeModal = () => {
+      setSelectedMentor(null);
+    };
+  
+    return (
+      <section className="py-16 md:px-12 lg:px-20 bg-gray-50">
+        <div className="flex flex-col md:flex-row items-center justify-between mb-10">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-6 md:mb-0">
+            Təcrübəli
+            <br />
+            Təlimçilərimiz
+          </h2>
+          <button
+            className="px-6 py-3 bg-[#A38FFD] text-white font-medium rounded-md shadow-md hover:bg-[#8F79E3] focus:outline-none"
+            style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}
+          >
+            Learn More
+          </button>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {mentorsData.map((mentor, index) => (
+            <div
+              key={index}
+              className="cursor-pointer overflow-hidden relative card h-80 rounded-lg shadow-lg group"
+              onClick={() => openModal(mentor)}
+            >
+              <div
+                className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                style={{ backgroundImage: `url(${mentor.image})` }}
+              ></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-70"></div>
+              <div className="relative z-10 p-4 flex flex-col justify-end h-full">
+                <h3 className="text-white text-2xl font-bold">{mentor.name}</h3>
+                <p className="text-gray-300 text-sm">{mentor.role}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+  
+        {/* Modal */}
+        {selectedMentor && (
           <div
-            key={index}
-            className="max-w-xs w-full xs:mb-0 mb-8 group/card"
-            onClick={() => openModal(mentor)}
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 transition-opacity duration-300 ease-out opacity-100"
+            onClick={closeModal}
           >
             <div
-              className={
-                "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4 " +
-                "rounded-2xl bg-cover"
-              }
-              style={{ backgroundImage: `url(${mentor.image})` }}
+              className="bg-white rounded-lg p-6 max-w-3xl w-full relative shadow-lg transform transition-transform duration-300 ease-out scale-100 flex"
+              onClick={(e) => e.stopPropagation()}
+              style={{ animation: "fadeInScale 0.3s ease" }}
             >
-              <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-60"></div>
-              <div className="text content">
-                <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                  {mentor.name}
-                </h1>
-                <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-                  {mentor.role}
+              {/* Left Image Section */}
+              <div className="w-1/2">
+                <img
+                  src={selectedMentor.image}
+                  alt={selectedMentor.name}
+                  className="rounded-md h-full object-cover"
+                />
+              </div>
+  
+              {/* Right Content Section */}
+              <div className="w-1/2 pl-6 relative">
+                <h2 className="text-3xl font-bold mb-2">{selectedMentor.name}</h2>
+                <p className="text-lg font-semibold mb-4 text-gray-700">
+                  {selectedMentor.role}
+                </p>
+                <p className="text-sm text-gray-600">
+                  {selectedMentor.description}
                 </p>
               </div>
             </div>
           </div>
-        ))}
-      </div>
-
-      {/* Modal */}
-      {selectedMentor && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 transition-opacity duration-300 ease-out opacity-100"
-          onClick={closeModal}
-        >
-          <div
-            className="bg-white rounded-lg p-6 max-w-3xl w-full relative shadow-lg transform transition-transform duration-300 ease-out scale-100 flex"
-            onClick={(e) => e.stopPropagation()}
-            style={{ animation: "fadeInScale 0.3s ease" }}
-          >
-            {/* Left Image Section */}
-            <div className="w-1/2">
-              <img
-                src={selectedMentor.image}
-                alt={selectedMentor.name}
-                className="rounded-md  h-full object-cover"
-              />
-            </div>
-
-            {/* Right Content Section */}
-            <div className="w-1/2 pl-6 relative">
-              {/* Stylish Close Button */}
-              {/* <button
-                onClick={closeModal}
-                className="absolute top-4 right-4 bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-red-600 focus:outline-none shadow-md transition-transform transform hover:scale-110"
-              >
-                &times;
-              </button> */}
-              <h2 className="text-3xl font-bold mb-2">{selectedMentor.name}</h2>
-              <p className="text-lg font-semibold mb-4 text-gray-700">
-                {selectedMentor.role}
-              </p>
-              <p className="text-sm text-gray-600">
-                {selectedMentor.description}
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
-
-      <style jsx>{`
-        @keyframes fadeInScale {
-          0% {
-            opacity: 0;
-            transform: scale(0.9);
+        )}
+  
+        <style jsx>{`
+          @keyframes fadeInScale {
+            0% {
+              opacity: 0;
+              transform: scale(0.9);
+            }
+            100% {
+              opacity: 1;
+              transform: scale(1);
+            }
           }
-          100% {
-            opacity: 1;
-            transform: scale(1);
-          }
-        }
-      `}</style>
-    </section>
-  );
-};
-
-export default Mentors;
+        `}</style>
+      </section>
+    );
+  };
+  
+  export default Mentors;
+  
