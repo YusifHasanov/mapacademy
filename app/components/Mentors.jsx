@@ -107,7 +107,7 @@ const Mentors = () => {
               <img
                 src={selectedMentor.image}
                 alt={selectedMentor.name}
-                className="rounded-md h-56 w-full object-cover"
+                className="rounded-md  h-full object-cover"
               />
             </div>
 
