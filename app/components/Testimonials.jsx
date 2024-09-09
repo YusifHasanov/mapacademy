@@ -8,22 +8,22 @@ import 'swiper/css/navigation';
 
 const testimonials = [
     {
-        quote: "The instructor was knowledgeable and engaging, and I learned a lot in this course.",
-        name: "Raju",
-        role: "UI UX DESIGNER",
-        image: "https://randomuser.me/api/portraits/men/32.jpg",
+        quote: "Bu kurs həyatımı dəyişdi! Müəllimlər çox peşəkardır və dərslər anlaşılan tərzdə izah olunur. Hər tapşırıq mənim proqramlama bacarıqlarımı daha da inkişaf etdirdi.",
+        name: "Tural M.",
+        role: "Backend Developer",
+        image: "https://static.vecteezy.com/system/resources/previews/007/469/004/non_2x/graduated-student-in-simple-flat-personal-profile-icon-or-symbol-people-concept-illustration-vector.jpg",
     },
     {
-        quote: "This course exceeded my expectations. The projects were very practical.",
-        name: "Jane",
-        role: "Software Engineer",
-        image: "https://randomuser.me/api/portraits/women/44.jpg",
+        quote: "Mən əvvəllər proqramlama ilə heç vaxt məşğul olmamışdım, lakin burada hər şeyi başa düşmək mümkün oldu..",
+        name: "Elmir S.",
+        role: "Backend Developer",
+        image: "https://static.vecteezy.com/system/resources/previews/007/469/004/non_2x/graduated-student-in-simple-flat-personal-profile-icon-or-symbol-people-concept-illustration-vector.jpg",
     },
     {
-        quote: "Great learning experience with hands-on examples. Highly recommended!",
-        name: "John",
+        quote: "Müəllimlərin dəstəyi və kurs materiallarının keyfiyyəti məni çox təəccübləndirdi. Mən çox şey öyrəndim və indi öz şəxsi layihələrim üzərində işləyirəm.",
+        name: "Aysel H.",
         role: "Frontend Developer",
-        image: "https://randomuser.me/api/portraits/men/54.jpg",
+        image: "https://static.vecteezy.com/system/resources/previews/007/469/004/non_2x/graduated-student-in-simple-flat-personal-profile-icon-or-symbol-people-concept-illustration-vector.jpg",
     },
 ];
 
@@ -48,7 +48,7 @@ const Testimonial = () => {
             <div className="text-left pr-6 mb-6 md:mb-0 w-full md:w-1/3">
                 <p className="text-gray-500 uppercase text-sm font-semibold mb-2">Feedback</p>
                 <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-                    What Our Students Say
+                    Tələbələrimiz nə deyir
                 </h2>
                 <img src='/comma.jpeg' className="w-12 h-12 md:w-16 md:h-16" />
             </div>
