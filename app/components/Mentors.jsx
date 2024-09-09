@@ -52,9 +52,9 @@ const Mentors = () => {
         }
       >
         <h2 className="text-left xs:text-left text-5xl font-bold text-black mb-6 xs:mb-12">
-          Tecrubeli
+          Təcrübəli
           <br />
-          Telimcilerimiz
+          Təlimçilərimiz
         </h2>
         <button
           className="px-6 py-3 xs:px-4 xs:py-2 bg-[#A38FFD] text-white font-medium rounded-md shadow-md hover:bg-[#8F79E3] focus:outline-none"
