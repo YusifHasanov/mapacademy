@@ -11,8 +11,8 @@ const Footer = () => (
       </div>
       <div className="mb-6">
         <h3 className="text-2xl font-bold mb-4">Əlaqə</h3>
-        <p className="text-gray-400">+994 50 123 45 67</p>
-        <p className="text-gray-400">nümunə@example.com</p>
+        <p className="text-gray-400">+994 55 491 24 00</p>
+        {/* <p className="text-gray-400">nümunə@example.com</p> */}
       </div>
       <div className="mb-6">
         <h3 className="text-2xl font-bold mb-4">Ofis Saatları</h3>
@@ -20,7 +20,7 @@ const Footer = () => (
         <p className="text-gray-400">9:00 - 18:00</p>
       </div>
     </div>
-    <div className="border-t border-gray-700 mt-10 py-6">
+    <div className="border-t border-gray-700 px-4 mt-10 py-6">
       <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
         <p>&copy; 2024 FT Learning. Bütün hüquqlar qorunur.</p>
         <div className="flex space-x-4 mt-4 md:mt-0">
