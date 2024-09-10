@@ -31,3 +31,160 @@
     text-wrap: balance;
   }
 } */
+
+
+/*  */
+
+
+/* Main section styles */
+/* Main section styles */
+.professional-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(135deg, #f5f7fa, #c3cfe2); */
+  padding: 30px 0 100px 0 ;
+  min-height: 100vh; /* Full screen section */
+  background-size: cover; /* Ensure the background covers the entire section */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%; /* Full width to cover background */
+}
+
+/* Header and subheader */
+.header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subheader {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Categories styles */
+.categories {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.category {
+  color: #777;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.category:hover {
+  color: #333;
+  transform: translateY(-5px); /* Lift up on hover */
+}
+
+.category.active {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Books image */
+/* .books-image img {
+  width: 400px;
+  margin-bottom: 40px;
+} */
+.books-image {
+  background-image: url('/logo.png'); /* Directly reference from the public folder */
+  width: 300px;
+  height: 200px;
+  background-size: cover; /* Ensure the image scales correctly */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Stats section */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.stat-label {
+  color: #777;
+  font-size: 1rem;
+}
+
+/* Action button */
+.explore-button {
+  background-color: #7b61ff;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(123, 97, 255, 0.4);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.explore-button:hover {
+  background-color: #6a54d3;
+  transform: translateY(-5px); /* Lift on hover */
+  box-shadow: 0 15px 30px rgba(123, 97, 255, 0.6); /* Stronger shadow on hover */
+}
+
+
+
+
+/*  */
+
+.collaboration-section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.collaboration-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.collaboration-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.collab-logo {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.collab-logo:hover {
+  transform: scale(1.2);
+}
