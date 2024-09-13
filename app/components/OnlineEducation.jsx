@@ -21,9 +21,10 @@ const OnlineEducation = () => {
       </div>
       <div className="w-full md:w-auto">
         <img
-          src="https://res.cloudinary.com/dhhlnrons/image/upload/v1725347143/tyduwidu5yyaolslkf9c.png"
+          // src="https://res.cloudinary.com/dhhlnrons/image/upload/v1725347143/tyduwidu5yyaolslkf9c.png"
+          src="/gptboy.png"
           alt="Online Education Illustration"
-          className="w-full md:w-auto h-auto"
+          className="w-full md:w-96 h-auto"
         />
       </div>
     </div>

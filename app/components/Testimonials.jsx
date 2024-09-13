@@ -43,7 +43,8 @@ const Testimonial = () => {
     };
 
     return (
-        <div className="p-4 md:px-12 lg:px-24 py-12 max-w-7xl mx-auto flex flex-col items-start">
+       <section className='w-full'>
+         <div className="p-4 md:px-12 lg:px-24 py-12 max-w-7xl mx-auto flex flex-col items-start">
             {/* Left static part */}
             <div className="text-left pr-6 mb-6 md:mb-0 w-full md:w-1/3">
                 <p className="text-gray-500 uppercase text-sm font-semibold mb-2">Feedback</p>
@@ -110,6 +111,7 @@ const Testimonial = () => {
                 </button>
             </div>
         </div>
+       </section>
     );
 };
 

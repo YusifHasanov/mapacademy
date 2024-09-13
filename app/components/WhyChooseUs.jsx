@@ -1,8 +1,6 @@
 const WhyChooseUs = () => {
     return (
-      <section style={{
-        backgroundColor:"#F6F4FF"
-      }} className="py-16 px-8 ">
+      <div  className=" why-choose-us py-16 px-8 ">
         <div className="container mx-auto">
 
           {/* Features Grid */}
@@ -106,7 +104,7 @@ Dinamik və adaptiv veb saytların yaradılması üzrə bacarıqlarınızı inki
             </div>
           </div>
         </div>
-      </section>
+      </div>
     );
 };
 
