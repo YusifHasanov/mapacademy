@@ -17,20 +17,20 @@ const HomeworkHelperSection = () => {
 
 const Header = () => (
   <div className="header">
-    <h1>Your 24/7 homework helper</h1>
+    <h1>Map Academy’nin üstünlükləri</h1>
   </div>
 );
 
 const Features = () => (
   <ul className="features">
     <li className="feature-item">
-      <span className="checkmark">✔</span> Ask 350 million teachers and students any school question
+      <span className="checkmark">✔</span> Praktiki tədris metodu
     </li>
     <li className="feature-item">
-      <span className="checkmark">✔</span> Get expert-verified answers fast
+      <span className="checkmark">✔</span> Mentor sistemi
     </li>
     <li className="feature-item">
-      <span className="checkmark">✔</span> Pair up student and parental accounts
+      <span className="checkmark">✔</span> Buraxılış layihəsi
     </li>
   </ul>
 );

@@ -164,5 +164,6 @@
 
 .why-choose-us{
   /* background-color: #F6F4FF; */
-  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  /* background: linear-gradient(135deg, #f5f7fa, #c3cfe2); */
+  background: linear-gradient(135deg, #f5f7fa, #fcfdff);
 }

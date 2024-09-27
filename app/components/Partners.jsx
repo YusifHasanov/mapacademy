@@ -11,7 +11,7 @@ const CollaborationSection = () => {
   return (
     <section className="collaboration-section">
       <h2 className="collaboration-header ">
-        Over 100 Programming Languages We Support
+        Tədris etdiyimiz texnalogiyalar
       </h2>
       <div className="collaboration-logos pt-7">
         {
