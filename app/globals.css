@@ -284,7 +284,8 @@
 }
 
 .hover-card-description {
-  color: #7d879c;
+
+  
   font-size: 1rem;
 }
 
@@ -307,3 +308,76 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AdvantageCard.css */
+.advantage-card {
+  text-align: center;
+  padding: 20px;
+  width: 250px;
+}
+
+.advantage-icon {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.advantage-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.advantage-description {
+  color: #7d879c;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* AdvantagesSection.css */
+
+
+
+.advantages-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f5f8fc;
+}
+
+.advantages-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.advantages-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .advantages-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
