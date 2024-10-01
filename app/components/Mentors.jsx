@@ -26,8 +26,7 @@ const mentorsData = [
   {
     name: "Author Card",
     role: "Card with Author avatar, complete name and time to read",
-    image:
-      "https://media.istockphoto.com/id/1626853870/photo/a-focused-businessman-working-on-his-computer.webp?a=1&b=1&s=612x612&w=0&k=20&c=1qUGOEXwDcMj543oDxfUYHtL7LsUY8_26pnpV2EeLxE=",
+    image:"/mentors/dunay.jpg",
     description:
       "This card provides information about the author and is used as a sample layout for blogs or similar content.",
   },
