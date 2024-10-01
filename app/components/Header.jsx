@@ -11,10 +11,10 @@ const Header = () => (
       <a href="#" className="text-gray-700">Pricing</a>
       <a href="#" className="text-gray-700">Contacts</a>
     </nav>
-    <div className="flex space-x-4 items-center">
+    {/* <div className="flex space-x-4 items-center">
       <a href="#" className="text-gray-700">Log In</a>
       <a href="#" className="px-6 py-2 bg-gradient-to-r from-purple-500 to-purple-700 text-white rounded-lg">Register</a>
-    </div>
+    </div> */}
   </div>
 );
 

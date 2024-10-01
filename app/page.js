@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-import Partners from './components/Partners';
+import EducationArea from './components/EducationArea';
 import OnlineEducation from './components/OnlineEducation';
 import Mentors from './components/Mentors';
 import Testimonials from './components/Testimonials';
@@ -20,8 +20,9 @@ export default function Home() {
 
       <Header />
       <HeroSection />
-      <Partners />
-      <OnlineEducation />
+      <EducationArea/>
+      {/* <Partners /> */}
+      {/* <OnlineEducation /> */}
       <WhyChooseUs/>
       <Mentors />
       <Testimonials />

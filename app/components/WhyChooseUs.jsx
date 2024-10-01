@@ -1,11 +1,14 @@
 const WhyChooseUs = () => {
+  const style ={
+    color: "#7d879c"
+  }
   return (
     <div className=" why-choose-us py-16 px-8 ">
       <div className="container mx-auto">
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-3  md:grid-cols-2 gap-8">
-          <div className=" bg-white rounded-2xl md:col-span-2 p-6  shadow-md text-centerbg-purple-50 flex flex-col md:flex-row items-center">
+          <div className="why-choose-us-box  md:col-span-2 p-6   flex flex-col md:flex-row items-center">
             {/* Text Section */}
             <div className="md:w-1/2 mb-6 md:mb-0">
               <h2 className="text-3xl text-black font-bold mb-4">Niye bizim kursu seçməlisiniz?</h2>
@@ -30,7 +33,7 @@ const WhyChooseUs = () => {
           </div>
 
 
-          <div className="bg-white rounded-2xl shadow-md p-6 max-w-sm mx-auto">
+          <div className="why-choose-us-box max-w-sm mx-auto">
             <div className="flex items-center mb-4">
               <div className="bg-blue-100 p-3 rounded-full"> 
                 <svg className="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -42,14 +45,14 @@ const WhyChooseUs = () => {
 
             </div>
             <h3 className="text-lg font-bold mb-2">Backend təlimlərimiz</h3>
-            <p className="text-gray-600">
+            <p style={style} >
               Backend təlimlərimizə Java, Spring Boot, Python, Django və SQL kimi texnologiyalar daxildir.
               Mikroservis arxitekturası, API dizaynı və təhlükəsizlik üzrə dərin biliklər əldə edəcəksiniz.
               Kursumuzda backend proqramlaşdırma dilləri və alətlərinin praktik tətbiqi ilə təcrübə qazanacaqsınız.
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-md p-6 max-w-sm mx-auto">
+          <div className="why-choose-us-box max-w-sm mx-auto">
             <div className="flex items-center mb-4">
               <div className="bg-blue-100 p-3 rounded-full">
                 <svg className="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -60,14 +63,14 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <h3 className="text-lg font-bold mb-2">FrontEnd təlimlərimiz</h3>
-            <p className="text-gray-600">
+            <p style={style} >
               Frontend təlimlərimiz HTML, CSS, JavaScript, React, və Angular kimi texnologiyaları əhatə edir.
               Rəqəmsal dizayn və istifadəçi təcrübəsi (UX/UI) üzrə nəzəri və praktiki biliklər əldə edəcəksiniz.
               Dinamik və adaptiv veb saytların yaradılması üzrə bacarıqlarınızı inkişaf etdirəcəksiniz.
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-md p-6 max-w-sm mx-auto">
+          <div className="why-choose-us-box max-w-sm mx-auto">
             <div className="flex items-center mb-4">
               <div className="bg-blue-100 p-3 rounded-full">
                 <svg className="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -78,13 +81,13 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <h3 className="text-lg font-bold mb-2">Flexible Time</h3>
-            <p className="text-gray-600">
+            <p style={style} >
               Flexible time, also known as flextime or flexi-time, refers to a work schedule that allows employees to
               have some control over their starting and ending times.
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-md p-6 max-w-sm mx-auto">
+          <div className="why-choose-us-box max-w-sm mx-auto">
             <div className="flex items-center mb-4">
               <div className="bg-blue-100 p-3 rounded-full">
                 <svg className="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -95,7 +98,7 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <h3 className="text-lg font-bold mb-2">Flexible Time</h3>
-            <p className="text-gray-600">
+            <p style={style} className= "">
               Flexible time, also known as flextime or flexi-time, refers to a work schedule that allows employees to
               have some control over their starting and ending times.
             </p>
