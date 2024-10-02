@@ -37,7 +37,7 @@ function AdvantagesSection() {
 
   return (
     <div className="advantages-section">
-      <h2 className="advantages-title">Code Academy’nin üstünlükləri</h2>
+      <h2 className="advantages-title">Map Academy’nin üstünlükləri</h2>
       <div className="advantages-grid">
         {advantages.map((advantage, index) => (
           <AdvantageCard
